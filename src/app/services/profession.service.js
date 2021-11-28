@@ -1,5 +1,5 @@
 import httpService from "./http.service";
-const professionEndpoint = "http://localhost:4000/api/v1/profession/";
+const professionEndpoint = "profession/";
 
 const professionService = {
     get: async () => {
